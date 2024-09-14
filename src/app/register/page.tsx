@@ -18,9 +18,11 @@ const RegisterPage = () => {
   } = useForm<UserData>();
 
   const onSubmit = async (data: UserData) => {
-    console.log(data);
+    // console.log(data);
+    
 
     try {
+      
     } catch (err: any) {
       console.error(err.message);
       throw new Error(err.message);
